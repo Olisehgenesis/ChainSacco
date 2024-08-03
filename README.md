@@ -1,17 +1,21 @@
+
 # ChainSacco
 
-## Decentralized SACCO System with Joint Payments
+## Decentralized SACCO System with Joint Payments and Circular Savings
 
 ChainSacco is an innovative blockchain-based Savings and Credit Cooperative (SACCO) platform designed for the East African context. This project leverages Cartesi's technology to create a decentralized application (dApp) that modernizes traditional SACCO operations.
 
 ### Project Overview
 
-ChainSacco aims to enhance financial inclusion and cooperative savings in East Africa by providing a secure, transparent, and efficient platform for managing group finances, loans, and joint expenses.
+ChainSacco aims to enhance financial inclusion and cooperative savings in East Africa by providing a secure, transparent, and efficient platform for managing group finances, loans, and joint expenses. It incorporates features like joint savings and circular savings to cater to local financial practices.
 
 ### Key Features
 
 - **Member Management:** Secure registration and profile management for SACCO members.
-- **Savings Accounts:** Individual and group savings with transparent record-keeping.
+- **Savings Accounts:** 
+  - Individual savings with transparent record-keeping.
+  - Joint savings for group financial goals.
+  - Circular savings (Chama model) for rotating group contributions.
 - **Loan System:** Automated loan requests, approvals, and repayment tracking.
 - **Joint Payments:** Manage shared expenses and group contributions.
 - **Dividend Calculation:** Automated and transparent profit-sharing.
@@ -20,16 +24,12 @@ ChainSacco aims to enhance financial inclusion and cooperative savings in East A
 
 ### Technology Stack
 
-- **Blockchain:** Ethereum (or other compatible blockchain)
+- **Layer-2 Scaling:** Cartesi Rollups
 - **Smart Contracts:** Solidity
-- **Off-chain Computations:** Cartesi
+- **Off-chain Computations:** Cartesi Machine
 - **Frontend:** React.js
-- **Backend:** Node.js
-- **Database:** IPFS for decentralized storage
+- **Backend:** Node.js with Cartesi Rollups HTTP API
 
-### Getting Started
-
-### Project Structure
 
 
 ### Contributing
@@ -42,8 +42,9 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ### Acknowledgments
 
-- Cartesi team for their blockchain scaling solution
+- Cartesi team for their blockchain scaling solution and rollups technology
+- The East African SACCO community for inspiration and use-case scenarios
 
 ### Disclaimer
 
-This project is part of a masterclass and is intended for educational purposes. Always consult with financial and legal experts before implementing or using financial applications in real-world scenarios.
+This project is part of a Cartesi masterclass and is intended for educational purposes. It demonstrates basic concepts of using Cartesi for a financial application. Always consult with financial and legal experts before implementing or using financial applications in real-world scenarios.
